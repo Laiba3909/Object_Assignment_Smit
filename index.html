@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+    <h1 id="h1">Assignment: Object</h1>
+    
+<!-- // 4. Suppose you want to check population of your area, their
+// educations and professions.
+// Create a constructor function which holds following
+// properties:
+// Name, gender, address, education, profession,
+// Enter all records one by one.
+// Hint:
+//  use select box for education and profession,
+//  use radio box for gender
+// Bonus : use can use localStorage to save records. -->
+
+<h1 id="h2">Question Number: 4</h1>
+<form id="submitForm">
+    <label for="Name">Name:
+        <input type="text"  id="name" required>
+    </label>
+    <br>
+    <label for="Gender"> Gender:
+    <label for="Gender">Male:
+        <input type="radio" name="Gender" required >
+    </label>
+    <label for="Gender">Female:
+        <input type="radio"  name="Gender" required>
+    </label>
+    <label for="Gender">Other:
+        <input type="radio" name="Gender" required >
+    </label>
+</label>
+<br>
+<label for="address">Adress:</label>
+<input type="text" name="address" id="adress" required>
+<br>
+<label>Education:</label>
+<select id="education" required>
+    <option value=" School"> School</option>
+    <option value="Intermediate">Intermediate</option>
+    <option value="Bachelor's">Bachelor's</option>
+    <option value="Master's">Master's</option>
+    <option value="PhD">PhD</option>
+</select>
+<br>
+<label>Profession:</label>
+<select id="profession" required>
+    <option value="Engineer">Engineer</option>
+    <option value="Doctor">Doctor</option>
+    <option value="Teacher">Teacher</option>
+    <option value="Artist">Artist</option>
+</select>
+<br>
+<button id="submit" >Submit</button>
+</form>
+    
+
+ <script src="app.js"></script>
+</body>
+</html>

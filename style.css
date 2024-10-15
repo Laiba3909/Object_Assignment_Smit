@@ -1,0 +1,37 @@
+#submitForm{
+    margin-top: 100px;
+    color: antiquewhite;
+    margin: 26px;
+    font-size: 30px;
+}
+
+#submit{
+   background-color: #016764;
+   color: white;
+   border-radius: 5px;
+   font-size: 23px;
+   cursor: pointer;
+
+}
+
+#submit:hover{
+    background-color: cadetblue;
+}
+
+#h1{
+    color:#016764;
+    font-size: 60px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+label{
+    color: white;
+}
+
+#h2{
+    font-size: 50px;
+    margin: 26px;
+    color: gold;
+}
